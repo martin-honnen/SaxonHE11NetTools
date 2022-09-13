@@ -20,6 +20,7 @@ The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.4 Jav
 	<PackageReleaseNotes>This is the initial alpha1 release.</PackageReleaseNotes>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE11NetXslt</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
