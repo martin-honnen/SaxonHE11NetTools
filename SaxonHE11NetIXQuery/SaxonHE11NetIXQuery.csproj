@@ -5,6 +5,22 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>SaxonHENetIXQuery</ToolCommandName>
+	<PackageOutputPath>./nupkg</PackageOutputPath>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Version>11.4.0-alpha1</Version>
+	<Title>Saxon HE 11 .NET XQuery 3.1 command line tool with Invisible XML extensions</Title>
+	<Authors>Martin Honnen</Authors>
+	<Copyright>Copyright 2022 Martin Honnen</Copyright>
+	<Description>This is a thin .NET 6 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.4 and IKVM cross-compiled Invisible XML CoffeeSacks extension library, allowing the use of XQuery 3.1 with Invisible XML extensions from the command line.
+The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.4 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageTags>xquery;xquery-3.1;xml;json;xml;invisible-xml</PackageTags>
+	<PackageReleaseNotes>This is the initial alpha1 release.</PackageReleaseNotes>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE11NetIXQuery</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,6 +49,10 @@
     </None>
     <None Update="date.ixml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
