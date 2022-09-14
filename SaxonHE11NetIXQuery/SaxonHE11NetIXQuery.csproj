@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.0.1" />
+	<MavenReference Include="net.sf.saxon:Saxon-HE" version="11.4" />
+	<MavenReference Include="org.xmlresolver:xmlresolver" Version="4.5.1" />
+	<MavenReference Include="org.xmlresolver:xmlresolver" Category="data" Version="4.5.1" />
+	<!--<MavenReference Include="org.nineml:coffeesacks" Version="1.99.13" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="coffeefilter">
+      <HintPath>..\CoffeeSacksHelperLib\bin\Release\net6.0\coffeefilter.dll</HintPath>
+    </Reference>
+    <Reference Include="coffeegrinder">
+      <HintPath>..\CoffeeSacksHelperLib\bin\Release\net6.0\coffeegrinder.dll</HintPath>
+    </Reference>
+    <Reference Include="coffeesacks">
+      <HintPath>..\CoffeeSacksHelperLib\bin\Release\net6.0\coffeesacks.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="coffeesacks-in-xquery-example1.xq">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="date.ixml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
