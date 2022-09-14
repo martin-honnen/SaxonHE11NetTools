@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaxonHE11NetIXslt": {
+      "commandName": "Project",
+      "commandLineArgs": "-t\r\n-it\r\n-xsl:coffeepot-in-xslt-example1.xsl\r\ndate-input=\"14 September 2022\""
+    }
+  }
+}
