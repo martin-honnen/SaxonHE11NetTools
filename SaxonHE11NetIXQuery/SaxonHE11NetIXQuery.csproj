@@ -9,7 +9,7 @@
 	<ToolCommandName>SaxonHENetIXQuery</ToolCommandName>
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<Version>11.4.0-alpha1</Version>
+	<Version>11.4.0</Version>
 	<Title>Saxon HE 11 .NET XQuery 3.1 command line tool with Invisible XML extensions</Title>
 	<Authors>Martin Honnen</Authors>
 	<Copyright>Copyright 2022 Martin Honnen</Copyright>
@@ -17,14 +17,14 @@
 The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.4 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageTags>xquery;xquery-3.1;xml;json;xml;invisible-xml</PackageTags>
-	<PackageReleaseNotes>This is the initial alpha1 release.</PackageReleaseNotes>
+	<PackageReleaseNotes>This is first release after the alpha release.</PackageReleaseNotes>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
 	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE11NetIXQuery</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.0.1" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.0.2" />
 	<MavenReference Include="net.sf.saxon:Saxon-HE" version="11.4" />
 	<MavenReference Include="org.xmlresolver:xmlresolver" Version="4.5.1" />
 	<MavenReference Include="org.xmlresolver:xmlresolver" Category="data" Version="4.5.1" />

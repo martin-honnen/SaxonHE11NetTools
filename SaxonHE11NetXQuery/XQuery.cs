@@ -8,7 +8,7 @@ namespace net.liberty_development.saxontools.SaxonXQuery
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"SaxonHENetXQuery 11.4-alpha1 on .NET {Environment.Version} {Environment.OSVersion}");
+            Console.WriteLine($"SaxonHENetXQuery 11.4.0 on .NET {Environment.Version} {Environment.OSVersion}");
             var stopWatch = new Stopwatch();
             stopWatch.Start();
 
