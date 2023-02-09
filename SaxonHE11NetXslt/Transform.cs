@@ -8,12 +8,12 @@ namespace net.liberty_development.saxontools.SaxonXslt
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine($"SaxonHENetXslt 11.4.0 on .NET {Environment.Version} {Environment.OSVersion}");
+            Console.WriteLine($"SaxonHENetXslt 11.5.0 on .NET {Environment.Version} {Environment.OSVersion}");
             var stopWatch = new Stopwatch();
             stopWatch.Start();
 
-            ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver"));
-            ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver_data"));
+            //ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver"));
+            //ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver_data"));
 
             Transform.main(args);
 
