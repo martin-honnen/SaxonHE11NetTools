@@ -9,22 +9,22 @@
 	<ToolCommandName>SaxonHENetXslt</ToolCommandName>
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<Version>11.4.0</Version>
+	<Version>11.4.1</Version>
 	<Title>Saxon HE 11 .NET Xslt 3.0 command line tool</Title>
 	<Authors>Martin Honnen</Authors>
-	<Copyright>Copyright 2022 Martin Honnen</Copyright>
+	<Copyright>Copyright 2023 Martin Honnen</Copyright>
 	<Description>This is a thin .NET 6 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.4, allowing the use of XSLT 3.0 from the command line.
 The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.4 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageTags>xslt;xslt-3.0;xml;json;transformation</PackageTags>
-	<PackageReleaseNotes>This is the first release after the initial alpha1 release.</PackageReleaseNotes>
+	<PackageReleaseNotes>This is a minor update of the used components.</PackageReleaseNotes>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
 	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE11NetXslt</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.0.2" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.2.0" />
 	<MavenReference Include="net.sf.saxon:Saxon-HE" version="11.4" />
 	<MavenReference Include="org.xmlresolver:xmlresolver" Version="4.5.1" />
 	<MavenReference Include="org.xmlresolver:xmlresolver" Category="data" Version="4.5.1" />
