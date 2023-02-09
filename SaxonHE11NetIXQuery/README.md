@@ -1,5 +1,5 @@
-﻿# Thin .NET 6 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 11.4 Java, extended with CoffeeSacks Invisible XML extension
-This tool is a .NET 6 console app/a dotnet tool providing a thin .NET 6 wrapper around an IKVM cross-compiled version of Saxon HE 11.4 Java to run XQuery 3.1 with additional support for Invisible XML.
+﻿# Thin .NET 6 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 11.5 Java, extended with CoffeeSacks Invisible XML extension
+This tool is a .NET 6 console app/a dotnet tool providing a thin .NET 6 wrapper around an IKVM cross-compiled version of Saxon HE 11.5 Java to run XQuery 3.1 with additional support for Invisible XML.
 
 This is one of the sample projects outlining my successful attempt to apply https://github.com/ikvm-revived/ikvm and
 https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 11 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 6 code, in this case additionally adding a also cross-compiled Java library CoffeeSacks for Invisible XML support.
