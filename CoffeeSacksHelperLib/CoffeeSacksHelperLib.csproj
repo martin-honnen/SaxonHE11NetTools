@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="IKVM.Maven.Sdk" Version="1.4.1" />
-	<MavenReference Include="org.nineml:coffeesacks" Version="1.99.13" />
+	<MavenReference Include="org.nineml:coffeesacks" Version="2.0.3" />
   </ItemGroup>
 
 </Project>

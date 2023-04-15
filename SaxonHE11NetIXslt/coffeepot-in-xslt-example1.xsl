@@ -4,14 +4,14 @@
                 exclude-result-prefixes="#all"
                 version="3.0">
 
-<xsl:param name="date-input" as="xs:string">1 September 2022</xsl:param>
+<xsl:param name="date-input" as="xs:string">15 April 2023</xsl:param>
 
 <xsl:output indent="yes"/>
 
 <xsl:template name="xsl:initial-template">
-  <xsl:variable name="grammar" select="cs:grammar-uri('date.ixml')"/>
+  <xsl:variable name="parser" select="cs:load-grammar('date.ixml')"/>
   <doc>
-    <xsl:sequence select="cs:parse-string($grammar, $date-input)"/>
+    <xsl:sequence select="$parser($date-input)"/>
   </doc>
   <xsl:comment expand-text="yes">Run with {system-property('xsl:product-name')} {system-property('xsl:product-version')} {system-property('Q{http://saxon.sf.net/}platform')}</xsl:comment>
 </xsl:template>
