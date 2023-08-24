@@ -10,22 +10,22 @@
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>Saxon HE 11 XQuery 3.1 command line tool, cross-compiled using IKMV from Java to .NET</Title>
-	<Version>11.5.0</Version>
+	<Version>11.6.0</Version>
 	<Authors>Martin Honnen</Authors>
-	<Description>This is a thin .NET 6 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.5, allowing the use of XQuery 3.1 from the command line.
-The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.5 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
+	<Description>This is a thin .NET 6 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.6, allowing the use of XQuery 3.1 from the command line.
+The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.6 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
 	<Copyright>Copyright 2023 Martin Honnen</Copyright>
 	<PackageTags>xquery;xquery-3.1;xml;xpath;xpath-3.1;json</PackageTags>
 	<PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
-	<PackageReleaseNotes>This is the first update of Saxon HE to 11.5.</PackageReleaseNotes>
+	<PackageReleaseNotes>This is the first update of Saxon HE to 11.6</PackageReleaseNotes>
 	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE11NetXQuery</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.4.1" />
-	<MavenReference Include="net.sf.saxon:Saxon-HE" version="11.5" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.5.5" />
+	  <MavenReference Include="net.sf.saxon:Saxon-HE" version="11.6" />
 	<!--<MavenReference Include="org.xmlresolver:xmlresolver" Version="4.5.1" />
 	<MavenReference Include="org.xmlresolver:xmlresolver" Category="data" Version="4.5.1" />-->
   </ItemGroup>
