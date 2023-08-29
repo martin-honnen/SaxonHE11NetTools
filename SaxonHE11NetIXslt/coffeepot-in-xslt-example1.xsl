@@ -4,7 +4,7 @@
                 exclude-result-prefixes="#all"
                 version="3.0">
 
-<xsl:param name="date-input" as="xs:string">15 April 2023</xsl:param>
+<xsl:param name="date-input" as="xs:string">29 August 2023</xsl:param>
 
 <xsl:output indent="yes"/>
 

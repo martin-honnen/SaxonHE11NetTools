@@ -17,7 +17,7 @@
 The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.6 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageTags>xslt;xslt-3.0;xml;json;transformation;invisible-xml</PackageTags>
-	<PackageReleaseNotes>This is the first release using Saxon HE 11.6 and CoffeeSacks 3.2.1</PackageReleaseNotes>
+	<PackageReleaseNotes>This is the first release using Saxon HE 11.6 and CoffeeSacks 3.2.4</PackageReleaseNotes>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
 	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE11NetIXslt</PackageProjectUrl>
@@ -45,7 +45,7 @@ The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.6 Jav
 
   <ItemGroup>
     <None Update="coffeepot-in-xslt-example1.xsl">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="date.ixml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
