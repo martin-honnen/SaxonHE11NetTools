@@ -2,7 +2,7 @@
   "profiles": {
     "SaxonHE11NetIXQuery": {
       "commandName": "Project",
-      "commandLineArgs": "-t\r\ncoffeesacks-in-xquery-example1.xq\r\ninput-date=\"14 September 2022\""
+      "commandLineArgs": "-t\r\ncoffeesacks-in-xquery-example1.xq"
     }
   }
 }
