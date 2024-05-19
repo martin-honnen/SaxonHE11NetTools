@@ -9,7 +9,7 @@ namespace net.liberty_development.saxontools.SaxonIXslt
 
         static void Main(string[] args)
         {
-            Console.WriteLine($"SaxonHENetIXslt 11.6.2.0 on .NET {Environment.Version} {Environment.OSVersion}");
+            Console.WriteLine($"SaxonHENetIXslt 11.6.8.8 on .NET {Environment.Version} {Environment.OSVersion}");
             var stopWatch = new Stopwatch();
             stopWatch.Start();
 
