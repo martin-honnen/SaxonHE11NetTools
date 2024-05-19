@@ -10,7 +10,7 @@
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>Saxon HE 11 XQuery 3.1 command line tool, cross-compiled using IKMV from Java to .NET</Title>
-	<Version>11.6.0</Version>
+	<Version>11.6.8.8</Version>
 	<Authors>Martin Honnen</Authors>
 	<Description>This is a thin .NET 6/8 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.6, allowing the use of XQuery 3.1 from the command line.
 The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.6 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
