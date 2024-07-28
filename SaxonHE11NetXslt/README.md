@@ -17,7 +17,7 @@ Known issues: I have created the project with VS 2022 Community Edition on Windo
 ## How to use
 Install with e.g. 
 ```
-dotnet tool install --global SaxonHE11NetXslt --version 11.6.8.8
+dotnet tool install --global SaxonHE11NetXslt --version 11.6.8.9
 ```
 
 Then you can run `SaxonHE11NetXslt`, it takes the same command line argument like Saxon HE Java, so for example, to run XSLT 3.0 with the default `xsl:initial-template` you use e.g. `SaxonHENetXslt -it -xsl:sheet.xsl` or `SaxonHENetXslt -it -xsl:sheet.xsl -o:result.html`.

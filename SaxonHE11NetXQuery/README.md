@@ -17,7 +17,7 @@ Known issues: I have created the project with VS 2022 Community Edition on Windo
 ## How to use
 Install with e.g. 
 ```
-dotnet tool install --global SaxonHE11NetXQuery --version 11.6.8.8
+dotnet tool install --global SaxonHE11NetXQuery --version 11.6.8.9
 ```
 
 Then you can run `SaxonHE11NetXQuery`, it takes the same command line argument like Saxon HE Java, so for example, to run XQuery 3.1 you use e.g. `SaxonHE11NetXQuery -s:source.xml -q:query.xq` or `SaxonHE11NetXQuery -s:source.xml -q:query.xq -o:result.xml`.

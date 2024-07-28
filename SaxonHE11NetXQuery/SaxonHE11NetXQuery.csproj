@@ -10,7 +10,7 @@
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>Saxon HE 11 XQuery 3.1 command line tool, cross-compiled using IKMV from Java to .NET</Title>
-	<Version>11.6.8.8</Version>
+	<Version>11.6.8.9</Version>
 	<Authors>Martin Honnen</Authors>
 	<Description>This is a thin .NET 6/8 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.6, allowing the use of XQuery 3.1 from the command line.
 The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.6 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
@@ -19,13 +19,13 @@ The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.6 Jav
 	<PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
-	<PackageReleaseNotes>This is the first release of Saxon HE 11.6 using IKVM 8.8 to build and package for both .NET 6 and .NET 8</PackageReleaseNotes>
+	<PackageReleaseNotes>This is the first release of Saxon HE 11.6 using the new IKVM 8.9.1 and IKVM.Maven.Sdk 1.7.1, also dual packaged for both .NET 6 and .NET 8</PackageReleaseNotes>
 	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE11NetXQuery</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.8.0" />
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.9" />
+    <PackageReference Include="IKVM" Version="8.9.1" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.7.1" />
 	  <MavenReference Include="net.sf.saxon:Saxon-HE" version="11.6" />
 	<!--<MavenReference Include="org.xmlresolver:xmlresolver" Version="4.5.1" />
 	<MavenReference Include="org.xmlresolver:xmlresolver" Category="data" Version="4.5.1" />-->
