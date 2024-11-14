@@ -2,30 +2,30 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<PackAsTool>true</PackAsTool>
 	<ToolCommandName>SaxonHE11NetXslt</ToolCommandName>
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<Version>11.6.8.9</Version>
+	<Version>11.6.9.0</Version>
 	<Title>Saxon HE 11 .NET Xslt 3.0 command line tool</Title>
 	<Authors>Martin Honnen</Authors>
 	<Copyright>Copyright 2024 Martin Honnen</Copyright>
-	<Description>This is a thin .NET 6/8 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.6, allowing the use of XSLT 3.0 from the command line.
+	<Description>This is a thin .NET 8/9 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.6, allowing the use of XSLT 3.0 from the command line.
 The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.6 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageTags>xslt;xslt-3.0;xml;json;transformation</PackageTags>
-	<PackageReleaseNotes>This is the first release of Saxon HE 11.6 using the new IKVM 8.9.1 and IKVM.Maven.Sdk 1.7.1, also dual packaged for both .NET 6 and .NET 8</PackageReleaseNotes>
+	<PackageReleaseNotes>This is the first release of Saxon HE 11.6 using the latest IKVM 8.10.3 and IKVM.Maven.Sdk 1.8.2, also first time dual packaged for both .NET 8 and .NET 9</PackageReleaseNotes>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
 	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE11NetXslt</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.9.1" />
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.7.1" />
+    <PackageReference Include="IKVM" Version="8.10.3" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.8.2" />
 	  <MavenReference Include="net.sf.saxon:Saxon-HE" version="11.6" />
 	<!--<MavenReference Include="org.xmlresolver:xmlresolver" Version="4.5.1" />
 	<MavenReference Include="org.xmlresolver:xmlresolver" Category="data" Version="4.5.1" />-->
