@@ -10,23 +10,26 @@
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>Saxon HE 11 XQuery 3.1 command line tool, cross-compiled using IKMV from Java to .NET</Title>
-	<Version>11.6.9.0</Version>
+	<Version>11.7.0</Version>
 	<Authors>Martin Honnen</Authors>
-	<Description>This is a thin .NET 8/9 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.6, allowing the use of XQuery 3.1 from the command line.
-The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.6 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
-	<Copyright>Copyright 2024 Martin Honnen</Copyright>
+	<Description>This is a thin .NET 8/9 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 11.7, allowing the use of XQuery 3.1 from the command line.
+The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 11.7 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.</Description>
+	<Copyright>Copyright 2025 Martin Honnen</Copyright>
 	<PackageTags>xquery;xquery-3.1;xml;xpath;xpath-3.1;json</PackageTags>
 	<PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
-	<PackageReleaseNotes>This is the first release of Saxon HE 11.6 using the latest IKVM 8.10.3 and IKVM.Maven.Sdk 1.8.2, also first time dual packaged for both .NET 8 and .NET 9</PackageReleaseNotes>
+	<PackageReleaseNotes>This is the first release of Saxon HE 11.7 using the latest IKVM 8.12.0 (using an updated Java 8/1.8 JDK 8u452-b09) and IKVM.Maven.Sdk 1.9.3, also dual packaged for both .NET 8 and .NET 9</PackageReleaseNotes>
 	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE11NetXQuery</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.10.3" />
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.8.2" />
-	  <MavenReference Include="net.sf.saxon:Saxon-HE" version="11.6" />
+    <PackageReference Include="IKVM" Version="8.12.0" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.9.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+	  <MavenReference Include="net.sf.saxon:Saxon-HE" version="11.7" />
 	<!--<MavenReference Include="org.xmlresolver:xmlresolver" Version="4.5.1" />
 	<MavenReference Include="org.xmlresolver:xmlresolver" Category="data" Version="4.5.1" />-->
   </ItemGroup>

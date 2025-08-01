@@ -7,10 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.10.3" />
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.8.2" />
-    <MavenReference Include="net.sf.saxon:Saxon-HE" version="11.6" />
-	<MavenReference Include="org.nineml:coffeesacks" Version="3.2.7" />
+    <PackageReference Include="IKVM" Version="8.12.0" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.9.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <MavenReference Include="net.sf.saxon:Saxon-HE" version="11.7" />
+	<MavenReference Include="org.nineml:coffeesacks" Version="3.2.9" />
   </ItemGroup>
 
 </Project>

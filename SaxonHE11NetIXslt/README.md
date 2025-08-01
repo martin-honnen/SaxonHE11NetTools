@@ -1,5 +1,5 @@
-﻿# Thin .NET 8/9 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 11.6 Java, extended with CoffeeSacks Invisible XML extension
-This tool is a .NET 8/9 console app/a dotnet tool providing a thin .NET 8/9 wrapper around an IKVM cross-compiled version of Saxon HE 11.6 Java to perform XSLT 3.0 transformations.
+﻿# Thin .NET 8/9 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 11.7 Java, extended with CoffeeSacks Invisible XML extension
+This tool is a .NET 8/9 console app/a dotnet tool providing a thin .NET 8/9 wrapper around an IKVM cross-compiled version of Saxon HE 11.7 Java to perform XSLT 3.0 transformations.
 
 This is one of the sample projects outlining my successful attempt to apply https://github.com/ikvm-revived/ikvm and
 https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 11 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 8 or .NET 9 code, in this case additionally adding a also cross-compiled Java library CoffeeSacks for Invisible XML support.
